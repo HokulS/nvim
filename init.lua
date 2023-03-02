@@ -1,0 +1,8 @@
+require "hokul.options"
+require "hokul.keymaps"
+require "hokul.plugins"
+require "hokul.treesitter"
+require "hokul.transparent"
+require "hokul.cmp"
+require "hokul.mason"
+vim.cmd "colorscheme darkplus"
