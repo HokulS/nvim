@@ -59,11 +59,16 @@ return packer.startup(function(use)
   use 'hrsh7th/cmp-path'
   use 'hrsh7th/cmp-cmdline'
   use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-omni'
+  use 'nvim-lualine/lualine.nvim'
 
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
 
   use 'numToStr/Comment.nvim'
+  use 'lervag/vimtex'
+  use 'nvim-tree/nvim-tree.lua'
+  use 'nvim-tree/nvim-web-devicons'
 
 
   -- Automatically set up your configuration after cloning packer.nvim
