@@ -19,7 +19,6 @@ local cmp = require'cmp'
     }),
     sources = cmp.config.sources({
       { name = 'nvim_lsp' },
-      { name = 'omni' }, 
       { name = 'luasnip' }, -- For luasnip users.
     }, {
       { name = 'buffer' },

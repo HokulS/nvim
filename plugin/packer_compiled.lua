@@ -99,11 +99,6 @@ _G.packer_plugins = {
     path = "/home/hokul/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["cmp-omni"] = {
-    loaded = true,
-    path = "/home/hokul/.local/share/nvim/site/pack/packer/start/cmp-omni",
-    url = "https://github.com/hrsh7th/cmp-omni"
-  },
   ["cmp-path"] = {
     loaded = true,
     path = "/home/hokul/.local/share/nvim/site/pack/packer/start/cmp-path",
@@ -178,6 +173,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hokul/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/hokul/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   },
   vimtex = {
     loaded = true,
