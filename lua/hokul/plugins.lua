@@ -70,6 +70,7 @@ return packer.startup(function(use)
   use 'nvim-tree/nvim-web-devicons'
   use 'tpope/vim-fugitive'
   use 'nvim-telescope/telescope.nvim'
+  use 'ThePrimeagen/harpoon'
 
 
   -- Automatically set up your configuration after cloning packer.nvim
