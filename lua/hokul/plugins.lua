@@ -71,6 +71,7 @@ return packer.startup(function(use)
   use 'tpope/vim-fugitive'
   use 'nvim-telescope/telescope.nvim'
   use 'ThePrimeagen/harpoon'
+  use 'lewis6991/gitsigns.nvim'
 
 
   -- Automatically set up your configuration after cloning packer.nvim
