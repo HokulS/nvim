@@ -6,6 +6,7 @@ local term_opts = { silent = true }
 local keymap = vim.api.nvim_set_keymap
 local mark = require("harpoon.mark")
 local ui = require("harpoon.ui")
+local luasnip = require("luasnip")
 
 --Remap space as leader key
 keymap("", "<Space>", "<Nop>", opts)
@@ -39,6 +40,8 @@ vim.keymap.set("n", "<leader>v", function() ui.nav_file(4) end)
 vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end)
 vim.keymap.set("t", "jk", [[<C-\><C-n>]], opts)
 vim.keymap.set("t", "<esc>", [[<C-\><C-n>]], opts)
+
+
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)

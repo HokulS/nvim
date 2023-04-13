@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/hokul/.local/share/nvim/site/pack/packer/start/colorschemes",
     url = "https://github.com/lunarvim/colorschemes"
   },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/home/hokul/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/home/hokul/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
