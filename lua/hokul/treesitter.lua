@@ -6,6 +6,7 @@ configs.setup {
   auto_install = true,
   highlight = {
     enable = true, -- false will disable the whole extension
+    disable = {'help'},
     additional_vim_regex_highlighting = true,
   },
 }
