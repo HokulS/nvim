@@ -13,5 +13,7 @@ require "hokul.autopairs"
 require "hokul.gitsigns"
 require "hokul.hop"
 require "hokul.telescope-config"
+require "hokul.autopairs"
 vim.cmd "colorscheme darkplus"
+
 

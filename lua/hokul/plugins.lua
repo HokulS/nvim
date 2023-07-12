@@ -73,6 +73,7 @@ return packer.startup(function(use)
   use 'MunifTanjim/nui.nvim'
   use 'phaazon/hop.nvim'
   use 'stevearc/oil.nvim'
+  use 'windwp/nvim-autopairs'
 
 
   -- Automatically set up your configuration after cloning packer.nvim
