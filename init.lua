@@ -11,5 +11,6 @@ require "hokul.vimtex"
 require "hokul.lualine"
 require "hokul.autopairs"
 require "hokul.gitsigns"
+require "hokul.hop"
 vim.cmd "colorscheme darkplus"
 

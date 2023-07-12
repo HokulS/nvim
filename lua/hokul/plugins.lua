@@ -73,6 +73,7 @@ return packer.startup(function(use)
   use 'ThePrimeagen/harpoon'
   use 'lewis6991/gitsigns.nvim'
   use 'MunifTanjim/nui.nvim'
+  use 'phaazon/hop.nvim'
 
 
   -- Automatically set up your configuration after cloning packer.nvim
