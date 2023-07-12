@@ -33,6 +33,7 @@ vim.api.nvim_set_keymap("n", "<leader>f", "<CMD>lua require'hokul.telescope-conf
 keymap("n", "<leader>d", ":Telescope live_grep<CR>", opts)
 keymap("n", "<leader>g", ":G ", opts)
 keymap("n", "<C-t>", ":ToggleTerm direction=float<CR>", opts)
+vim.keymap.set("n", "<leader>q", vim.lsp.buf.format)
 vim.keymap.set("n", "<leader>a", mark.add_file)
 vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu)
 vim.keymap.set("n", "<C-a>", function() ui.nav_file(1) end)
@@ -42,6 +43,8 @@ vim.keymap.set("n", "<C-f>", function() ui.nav_file(4) end)
 vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end)
 vim.keymap.set("t", "jk", [[<C-\><C-n>]], opts)
 vim.keymap.set("t", "<esc>", [[<C-\><C-n>]], opts)
+vim.keymap.set("n", "<C-a>", ":noh<CR>", opts)
+vim.keymap.set("i", "<C-a>", "<esc>:noh<CR>i", opts)
 
 
 
