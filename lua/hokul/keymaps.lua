@@ -29,7 +29,7 @@ keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
-keymap("n", "<leader>f", ":Telescope git_files<CR>", opts)
+vim.api.nvim_set_keymap("n", "<leader>f", "<CMD>lua require'hokul.telescope-config'.project_files()<CR>", {noremap = true, silent = true})
 keymap("n", "<leader>d", ":Telescope live_grep<CR>", opts)
 keymap("n", "<leader>g", ":G ", opts)
 keymap("n", "<C-t>", ":ToggleTerm direction=float<CR>", opts)
