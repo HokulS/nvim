@@ -30,6 +30,7 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 keymap("n", "<leader>f", ":Telescope find_files<CR>", opts)
+keymap("n", "<leader>g", ":G ", opts)
 keymap("n", "<C-t>", ":ToggleTerm direction=float<CR>", opts)
 vim.keymap.set("n", "<leader>a", mark.add_file)
 vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu)
