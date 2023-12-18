@@ -9,5 +9,6 @@
           null_ls.builtins.formatting.clang_format.with({
                 extra_args = { "--style=file" },
              }),
+          null_ls.builtins.formatting.prettier, 
        },
     })

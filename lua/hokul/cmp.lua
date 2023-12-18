@@ -14,6 +14,11 @@ end
         require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
       end,
     },
+    sources = cmp.config.sources({
+      { name = 'nvim_lsp' },
+      { name = 'luasnip' }, -- For luasnip users.
+      { name = 'buffer' },
+    }),
     window = {
       completion = cmp.config.window.bordered(),
       documentation = cmp.config.window.bordered(),
@@ -48,12 +53,6 @@ end
       end
     end, { "i", "s" }),
     }),
-    sources = cmp.config.sources({
-      { name = 'nvim_lsp' },
-      { name = 'luasnip' }, -- For luasnip users.
-    }, {
-      { name = 'buffer' },
-    })
   })
 
   -- Set configuration for specific filetype.
